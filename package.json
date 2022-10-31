@@ -1,0 +1,9 @@
+{
+  "name": "node-options-test",
+  "scripts": {
+    "build": "NODE_OPTIONS='-r cowsay' node index.js"
+  },
+  "dependencies": {
+    "cowsay": "^1.5.0"
+  }
+}
